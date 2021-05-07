@@ -1,6 +1,6 @@
 <h1 align="center">BookShelfAPI</h1>
 
-# BookShelfAPI is restful API that created using Hapi framework and can run locally. It provides simple CRUD. [More about Hapi](https://hapi.dev/)
+### BookShelfAPI is restful API that created using Hapi framework and can run locally. It provides simple CRUD. [ More about Hapi](https://hapi.dev/)
 
 ## Use Case
 1. Add Book
@@ -11,7 +11,7 @@
 
 ## Built With
 
-[![Hapi.js](https://img.shields.io/badge/Hapi.js-4.x-orange.svg?style=rounded-square)](https://www.npmjs.com/package/@hapi/hapi)
+[![Hapi.js](https://img.shields.io/badge/Hapi.js-20.x-orange.svg?style=rounded-square)](https://www.npmjs.com/package/@hapi/hapi)
 [![Node.js](https://img.shields.io/badge/Node.js-v.12.13-green.svg?style=rounded-square)](https://nodejs.org/)
 
 ## Requirements
