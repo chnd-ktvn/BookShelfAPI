@@ -74,7 +74,7 @@ const addBook = (request, h) => {
 const getAllBooks = (request, h) => {
   const { name, reading, finished } = request.query
   if (name) {
-    const booksByName = books.filter((book) => book.name.toLowerCase().includes(name.toLowerCase()))
+    const booksByName = books.filter((book) => book.name.toLowerCase().match(name.toLowerCase()))
     const listBook = booksByName.map((book) => {
       return {
         id: book.id,
